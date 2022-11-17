@@ -1,0 +1,1077 @@
+2022-11-17 16:30:40 [-][-][-][error][Error] Error: Call to a member function removeAll() on null in D:\xampp\htdocs\coe\www\console\controllers\RbacController.php:12
+Stack trace:
+#0 [internal function]: console\controllers\RbacController->actionInit()
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#4 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#5 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#9 {main}
+2022-11-17 16:30:40 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699040.2402
+    'REQUEST_TIME' => 1668699040
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2022-11-17 16:31:25 [-][-][-][error][Error] Error: Call to a member function removeAll() on null in D:\xampp\htdocs\coe\www\console\controllers\RbacController.php:12
+Stack trace:
+#0 [internal function]: console\controllers\RbacController->actionInit()
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#4 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#5 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#9 {main}
+2022-11-17 16:31:25 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699085.4642
+    'REQUEST_TIME' => 1668699085
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2022-11-17 16:32:14 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'coe_warehouse' in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#5 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1163): yii\db\Command->prepare(true)
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\mysql\Schema.php(320): yii\db\Command->queryAll()
+#8 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('', Array)
+#18 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('', Array)
+#19 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'coe_warehouse' in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1163): yii\db\Command->prepare(true)
+#4 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\mysql\Schema.php(320): yii\db\Command->queryAll()
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(908): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(183): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#15 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('', Array)
+#16 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('', Array)
+#17 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1049
+    [2] => Unknown database 'coe_warehouse'
+)
+
+2022-11-17 16:32:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699134.7521
+    'REQUEST_TIME' => 1668699134
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2022-11-17 16:33:06 [-][-][-][error][Error] Error: Call to a member function removeAll() on null in D:\xampp\htdocs\coe\www\console\controllers\RbacController.php:12
+Stack trace:
+#0 [internal function]: console\controllers\RbacController->actionInit()
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#4 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#5 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#9 {main}
+2022-11-17 16:33:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699186.8398
+    'REQUEST_TIME' => 1668699186
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2022-11-17 16:33:45 [-][-][-][error][Error] Error: Call to a member function createRole() on null in D:\xampp\htdocs\coe\www\console\controllers\RbacController.php:15
+Stack trace:
+#0 [internal function]: console\controllers\RbacController->actionInit()
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#4 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#5 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#9 {main}
+2022-11-17 16:33:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699225.7725
+    'REQUEST_TIME' => 1668699225
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2022-11-17 16:34:38 [-][-][-][error][Error] Error: Call to a member function removeAll() on null in D:\xampp\htdocs\coe\www\console\controllers\RbacController.php:12
+Stack trace:
+#0 [internal function]: console\controllers\RbacController->actionInit()
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#4 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#5 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#9 {main}
+2022-11-17 16:34:38 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699278.4933
+    'REQUEST_TIME' => 1668699278
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2022-11-17 16:38:34 [-][-][-][error][Error] Error: Call to a member function removeAll() on null in D:\xampp\htdocs\coe\www\console\controllers\RbacController.php:12
+Stack trace:
+#0 [internal function]: console\controllers\RbacController->actionInit()
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#4 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#5 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#9 {main}
+2022-11-17 16:38:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699513.4433
+    'REQUEST_TIME' => 1668699513
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2022-11-17 16:40:11 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'coe_wharehouse.auth_assignment' doesn't exist in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `au...')
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(977): yii\db\Command->execute()
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(902): yii\rbac\DbManager->removeAllAssignments()
+#4 D:\xampp\htdocs\coe\www\console\controllers\RbacController.php(12): yii\rbac\DbManager->removeAll()
+#5 [internal function]: console\controllers\RbacController->actionInit()
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#9 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#10 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#11 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#12 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'coe_wharehouse.auth_assignment' doesn't exist
+The SQL being executed was: DELETE FROM `auth_assignment` in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'DELETE FROM `au...')
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `au...')
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(977): yii\db\Command->execute()
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(902): yii\rbac\DbManager->removeAllAssignments()
+#4 D:\xampp\htdocs\coe\www\console\controllers\RbacController.php(12): yii\rbac\DbManager->removeAll()
+#5 [internal function]: console\controllers\RbacController->actionInit()
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#9 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#10 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#11 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#12 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'coe_wharehouse.auth_assignment' doesn't exist
+)
+
+2022-11-17 16:40:11 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699611.3317
+    'REQUEST_TIME' => 1668699611
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2022-11-17 16:40:40 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "migrat". in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrat', Array)
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrat', Array)
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrat". in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrat', Array)
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#3 {main}
+2022-11-17 16:40:40 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699640.3706
+    'REQUEST_TIME' => 1668699640
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'migrat'
+    ]
+    'argc' => 2
+]
+2022-11-17 16:40:56 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'coe_wharehouse.auth_assignment' doesn't exist in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `au...')
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(977): yii\db\Command->execute()
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(902): yii\rbac\DbManager->removeAllAssignments()
+#4 D:\xampp\htdocs\coe\www\console\controllers\RbacController.php(12): yii\rbac\DbManager->removeAll()
+#5 [internal function]: console\controllers\RbacController->actionInit()
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#9 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#10 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#11 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#12 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'coe_wharehouse.auth_assignment' doesn't exist
+The SQL being executed was: DELETE FROM `auth_assignment` in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'DELETE FROM `au...')
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `au...')
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(977): yii\db\Command->execute()
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(902): yii\rbac\DbManager->removeAllAssignments()
+#4 D:\xampp\htdocs\coe\www\console\controllers\RbacController.php(12): yii\rbac\DbManager->removeAll()
+#5 [internal function]: console\controllers\RbacController->actionInit()
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#9 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#10 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#11 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#12 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'coe_wharehouse.auth_assignment' doesn't exist
+)
+
+2022-11-17 16:40:56 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699656.7211
+    'REQUEST_TIME' => 1668699656
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2022-11-17 16:41:36 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'coe_wharehouse.auth_assignment' doesn't exist in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `au...')
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(977): yii\db\Command->execute()
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(902): yii\rbac\DbManager->removeAllAssignments()
+#4 D:\xampp\htdocs\coe\www\console\controllers\RbacController.php(12): yii\rbac\DbManager->removeAll()
+#5 [internal function]: console\controllers\RbacController->actionInit()
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#9 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#10 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#11 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#12 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'coe_wharehouse.auth_assignment' doesn't exist
+The SQL being executed was: DELETE FROM `auth_assignment` in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'DELETE FROM `au...')
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `au...')
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(977): yii\db\Command->execute()
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(902): yii\rbac\DbManager->removeAllAssignments()
+#4 D:\xampp\htdocs\coe\www\console\controllers\RbacController.php(12): yii\rbac\DbManager->removeAll()
+#5 [internal function]: console\controllers\RbacController->actionInit()
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#9 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#10 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#11 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#12 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'coe_wharehouse.auth_assignment' doesn't exist
+)
+
+2022-11-17 16:41:36 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699696.9115
+    'REQUEST_TIME' => 1668699696
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2022-11-17 16:43:19 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'coe_wharehouse.auth_assignment' doesn't exist in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `au...')
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(977): yii\db\Command->execute()
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(902): yii\rbac\DbManager->removeAllAssignments()
+#4 D:\xampp\htdocs\coe\www\console\controllers\RbacController.php(12): yii\rbac\DbManager->removeAll()
+#5 [internal function]: console\controllers\RbacController->actionInit()
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#9 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#10 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#11 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#12 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'coe_wharehouse.auth_assignment' doesn't exist
+The SQL being executed was: DELETE FROM `auth_assignment` in D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'DELETE FROM `au...')
+#1 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('DELETE FROM `au...')
+#2 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(977): yii\db\Command->execute()
+#3 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\rbac\DbManager.php(902): yii\rbac\DbManager->removeAllAssignments()
+#4 D:\xampp\htdocs\coe\www\console\controllers\RbacController.php(12): yii\rbac\DbManager->removeAll()
+#5 [internal function]: console\controllers\RbacController->actionInit()
+#6 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction('init', Array)
+#9 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('init', Array)
+#10 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#11 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#12 D:\xampp\htdocs\coe\www\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\coe\www\yii(23): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'coe_wharehouse.auth_assignment' doesn't exist
+)
+
+2022-11-17 16:43:19 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Chatty\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-CKL1KVV'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Chatty'
+    'LOCALAPPDATA' => 'C:\\Users\\Chatty\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-CKL1KVV'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\Chatty\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Chatty\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Chatty\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Chatty\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Chatty\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Chatty\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-CKL1KVV'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-CKL1KVV'
+    'USERNAME' => 'Chatty'
+    'USERPROFILE' => 'C:\\Users\\Chatty'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\coe\\www\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1668699799.8135
+    'REQUEST_TIME' => 1668699799
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\coe\\www\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
