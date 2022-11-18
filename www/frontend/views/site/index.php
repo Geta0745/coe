@@ -1,8 +1,15 @@
 <?php
 
+use PhpUnitsOfMeasure\PhysicalQuantity\Mass;
 /** @var yii\web\View $this */
 
 $this->title = 'My Yii Application';
+$first = new Mass(2, 'kg');
+$second = new Mass(1240,'g');
+
+
+$sum = $first->subtract($second); // '6 lbs'
+echo $first->subtract($second)->toUnit('kg');
 ?>
 <div class="site-index">
     <div class="p-5 mb-4 bg-transparent rounded-3">

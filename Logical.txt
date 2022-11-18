@@ -1,0 +1,25 @@
+----- length------------
+mm -> cm = mm / 10
+mm -> m = mm / 1000
+mm -> km = mm / 1000000
+
+cm -> mm = cm / 0.1
+cm -> m = cm / 100
+cm -> km = cm / 100000
+
+m -> mm = m / 0.001
+m -> cm = m / 0.01
+m -> km = m / 1000
+
+km -> mm = km / 0.000001
+km -> cm = km / 0.00001
+km -> m = km / 0.001
+
+----------mass/weight---------------
+
+mg -> cg = mg / 10
+mg -> g = mg / 1000
+mg -> kg = mg /1000000
+mg -> t = mg / 1000000000
+
+cg -> mg = cg * 10
