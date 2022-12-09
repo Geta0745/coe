@@ -1,5 +1,0 @@
-{
-    "require": {
-        "php-units-of-measure/php-units-of-measure": "^2.1"
-    }
-}
