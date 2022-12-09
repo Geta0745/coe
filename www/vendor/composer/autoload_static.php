@@ -100,6 +100,7 @@ class ComposerStaticInitac465b41fcd40389b357d5809adc1344
             'Psr\\Http\\Client\\' => 16,
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
+            'PhpUnitsOfMeasure\\' => 18,
             'PhpParser\\' => 10,
             'PhpOption\\' => 10,
         ),
@@ -340,8 +341,8 @@ class ComposerStaticInitac465b41fcd40389b357d5809adc1344
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -354,6 +355,10 @@ class ComposerStaticInitac465b41fcd40389b357d5809adc1344
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'PhpUnitsOfMeasure\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source',
         ),
         'PhpParser\\' => 
         array (
@@ -4003,6 +4008,32 @@ class ComposerStaticInitac465b41fcd40389b357d5809adc1344
         'PhpParser\\PrettyPrinterAbstract' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php',
         'PhpParser\\PrettyPrinter\\Standard' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php',
         'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
+        'PhpUnitsOfMeasure\\AbstractPhysicalQuantity' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/AbstractPhysicalQuantity.php',
+        'PhpUnitsOfMeasure\\Exception\\AbstractPhysicalQuantityException' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/Exception/AbstractPhysicalQuantityException.php',
+        'PhpUnitsOfMeasure\\Exception\\DuplicateUnitNameOrAlias' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/Exception/DuplicateUnitNameOrAlias.php',
+        'PhpUnitsOfMeasure\\Exception\\NonNumericValue' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/Exception/NonNumericValue.php',
+        'PhpUnitsOfMeasure\\Exception\\NonStringUnitName' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/Exception/NonStringUnitName.php',
+        'PhpUnitsOfMeasure\\Exception\\PhysicalQuantityMismatch' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/Exception/PhysicalQuantityMismatch.php',
+        'PhpUnitsOfMeasure\\Exception\\UnknownUnitOfMeasure' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/Exception/UnknownUnitOfMeasure.php',
+        'PhpUnitsOfMeasure\\HasSIUnitsTrait' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/HasSIUnitsTrait.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantityInterface' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantityInterface.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Acceleration' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Acceleration.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Angle' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Angle.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Area' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Area.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\ElectricCurrent' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/ElectricCurrent.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Energy' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Energy.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Length' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Length.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\LuminousIntensity' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/LuminousIntensity.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Mass' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Mass.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Pressure' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Pressure.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Quantity' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Quantity.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\SolidAngle' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/SolidAngle.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Temperature' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Temperature.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Time' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Time.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Velocity' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Velocity.php',
+        'PhpUnitsOfMeasure\\PhysicalQuantity\\Volume' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/PhysicalQuantity/Volume.php',
+        'PhpUnitsOfMeasure\\UnitOfMeasure' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/UnitOfMeasure.php',
+        'PhpUnitsOfMeasure\\UnitOfMeasureInterface' => __DIR__ . '/..' . '/php-units-of-measure/php-units-of-measure/source/UnitOfMeasureInterface.php',
         'Psr\\Container\\ContainerExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerExceptionInterface.php',
         'Psr\\Container\\ContainerInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerInterface.php',
         'Psr\\Container\\NotFoundExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/NotFoundExceptionInterface.php',
